@@ -1,8 +1,8 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
-  --dark-color: #343a40;
-  --light-color: #f4f4f4;
+  --primary-color: #012F4D;
+  --dark-color: #012F4D;
+  --light-color: #fcca41;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
@@ -17,7 +17,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: #f9a24f;
   color: #333;
 }
 
@@ -338,7 +338,7 @@ button {
 }
 
 .landing-inner {
-  color: #fff;
+  color: #f8e1a1;
   height: 100%;
   width: 80%;
   margin: auto;
