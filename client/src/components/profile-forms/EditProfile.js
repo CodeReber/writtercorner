@@ -81,13 +81,13 @@ const EditProfile = ({
         <div className='form-group'>
           <select name='status' value={status} onChange={e => onChange(e)}>
             <option value='0'>* Choose Writing Style</option>
-            <option value='Developer'>Short Stories</option>
-            <option value='Junior Developer'>Dramatic Novel</option>
+            <option value='Short Stories'>Short Stories</option>
+            <option value='Dramatic Novel'>Dramatic Novel</option>
             <option value='SongWriter'>SongWriter</option>
-            <option value='Manager'>Horror</option>
-            <option value='Student or Learning'>Romance</option>
-            <option value='Instructor'>Screen Play</option>
-            <option value='Intern'>Technical</option>
+            <option value='Horror'>Horror</option>
+            <option value='Romance'>Romance</option>
+            <option value='Screen Play'>Screen Play</option>
+            <option value='Technical'>Technical</option>
             <option value='Other'>Other</option>
           </select>
           <small className='form-text'>
