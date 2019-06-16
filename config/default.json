@@ -1,6 +1,6 @@
 {
-  "mongoURI": "",
-  "jwtSecret": "secret",
+  "mongoURI": "mongodb+srv://jim123:jim123@pennproj-msogv.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecret",
   "githubClientId": "",
   "githubSecret": ""
 }
