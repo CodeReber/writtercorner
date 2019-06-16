@@ -34,8 +34,7 @@ const AddEducation = ({ addEducation, history }) => {
     <Fragment>
       <h1 className='large text-primary'>Add Your Education</h1>
       <p className='lead'>
-        <i className='fas fa-code-branch' /> Add any school or bootcamp that you
-        have attended
+        <i className='fas fa-code-branch' /> Add any schooling
       </p>
       <small>* = required field</small>
       <form
