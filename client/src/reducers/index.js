@@ -10,3 +10,4 @@ export default combineReducers({
   profile,
   post
 });
+//root reducer

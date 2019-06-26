@@ -10,7 +10,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       <li>
         <Link to='profiles'> 
           <i className='fas fa-pencil-alt' />{' '}
-          <span className='hide-sm'>Writers</span>
+          <span className='hide-sm'>WordSmith</span>
         </Link>
       </li>
       <li>
@@ -22,7 +22,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
       <li>
         <Link to='/dashboard'>
           <i className='fas fa-user-edit' />{' '}
-          <span className='hide-sm'>Profile_Ctrl</span>
+          <span className='hide-sm'>Controls</span>
         </Link>
       </li>
       <li>
@@ -37,7 +37,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const guestLinks = (
     <ul>
       <li>
-        <Link to='/profiles'>Writters</Link>
+        <Link to='/profiles'>WordSmith</Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>
@@ -51,9 +51,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   return (
     <nav className='navbar bg-dark'>
       <h1>
-        <Link to='/'>
-          <i className='fas fa-pen-fancy' /> Writters
-        </Link>
+
       </h1>
       {!loading && (
         <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>
