@@ -4,7 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Landing from './components/layout/Landing';
 import Routes from './components/routing/Routes';
 
-// Redux
+// Part to input redux
 import { Provider } from 'react-redux';
 import store from './store';
 import { loadUser } from './actions/auth';
